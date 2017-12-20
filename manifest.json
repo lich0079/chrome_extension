@@ -1,0 +1,17 @@
+{
+    "name": "Extension test",
+    "description" : "Base Level Extension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "click",
+        "default_icon": "sazabi.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs", 
+        "activeTab",
+        "downloads",
+        "<all_urls>"
+      ]
+}
